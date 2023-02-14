@@ -1,0 +1,18 @@
+.nav{
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+    width: 100vw;
+    height: 50px;
+    background-color: #333;
+    
+}
+.nav .link{
+    color: rgb(0, 150, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.nav .link:hover{
+    color: royalblue;
+}
